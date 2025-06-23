@@ -24,4 +24,4 @@ with app.app_context():
     db.session.add_all([g1, g2, e1, e2, u1])
     db.session.commit()
 
-    print("Smooth as butter 🧈")
+    print("Smooth as butter!")
