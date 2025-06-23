@@ -1,4 +1,4 @@
-from server.app import app, db
+from app import app, db
 from server.models.guest import Guest
 from server.models.episode import Episode
 from datetime import date
