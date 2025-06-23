@@ -22,3 +22,6 @@ app.register_blueprint(auth_bp)
 app.register_blueprint(guest_bp)
 app.register_blueprint(episode_bp)
 app.register_blueprint(appearance_bp)
+
+if __name__ == '__main__':
+    app.run()
